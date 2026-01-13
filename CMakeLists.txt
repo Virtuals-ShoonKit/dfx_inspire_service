@@ -30,6 +30,7 @@ link_libraries(libboost_program_options.a)
 
 add_executable(inspire_g1 inspire_g1.cpp)
 add_executable(inspire_h1 inspire_h1.cpp)
+add_executable(inspire_g1_tcp inspire_g1_tcp.cpp)  # TCP Modbus version for RH56DFTP
 
 # example
 add_executable(hand_example example/hand_example.cpp)
